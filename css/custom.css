@@ -16,9 +16,19 @@ body{
     align-items: center;
     flex-direction: column;
     
-  
-    
-    
+}
+
+#page1{
+    background-color: red;
+}
+#page2{
+    background-color: orange;
+}
+#page3{
+    background-color: yellow;
+}
+#page4{
+    background-color:green;
 }
 
 
@@ -87,6 +97,8 @@ body{
     display: flex;
     font-family: 'Ek Mukta', sans-serif;
     font-size: 400%;
+    padding: 0;
+    margin: 0;
     
     
 }
@@ -141,6 +153,7 @@ CSS
 	position: relative;
 	top: 8px;
 }
+
 
 
 
