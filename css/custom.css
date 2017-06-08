@@ -24,7 +24,12 @@ body{
 
 #nav .active a{
 	color: black;
+    
   
+}
+
+#nav .active a:hover{
+    color: black;
 }
 
 
@@ -67,9 +72,6 @@ body{
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
     
-    
-    
-    
 }
 
 #nav ul li a {
@@ -80,7 +82,7 @@ body{
 }
 
 #nav ul li a:hover {
-    color: black;
+    color: dodgerblue;
 }
 
 

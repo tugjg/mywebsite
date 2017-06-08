@@ -72,7 +72,7 @@
 	var makeScroller = function (container, defaultDuration, edgeOffset) {
 
 		// Use defaults if not provided
-		defaultDuration = defaultDuration || 999 //ms
+		defaultDuration = defaultDuration || 700 //ms
 		if (!edgeOffset && edgeOffset !== 0) {
 			// When scrolling, this amount of distance is kept from the edges of the container:
             var h = window.innerHeight;
