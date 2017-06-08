@@ -107,7 +107,7 @@ body{
 
 .contact_info{
     width: 40%;
-    
+    margin: auto;
 }
 
 .contact_info ul{
