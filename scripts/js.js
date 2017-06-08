@@ -1,6 +1,6 @@
 
 
-/*(function($) {
+(function($) {
 $(document).ready(function() {
     var navChildren = $("#nav li").children();
     var aArray = [];
@@ -10,15 +10,20 @@ $(document).ready(function() {
         aArray.push(ahref);
     }
     $(window).scroll(function() {
+        var h = window.innerHeight;
+        var pageHeight = $('#page4').height();
+        var navHeight = $('#nav').height();
+        
         var windowPos = $(window).scrollTop();
         var windowHeight = $(window).height();
         var docHeight = $(document).height();
+        
         for (var i = 0; i < aArray.length; i++) {
             var theID = aArray[i];
             var secPosition = $(theID).offset().top;
-            secPosition = secPosition - 135;
+            secPosition = secPosition;
             var divHeight = $(theID).height();
-            divHeight = divHeight + 90;
+            divHeight = h + navHeight;
             if (windowPos >= secPosition && windowPos < (secPosition + divHeight)) {
                 $("a[href='" + theID + "']").parent().addClass("active");
             } else {
@@ -28,7 +33,7 @@ $(document).ready(function() {
     });
  
 });
-})(jQuery); */
+})(jQuery); 
 
 
 

@@ -17,21 +17,16 @@ body{
     
 }
 
-#page1{
-    background-color: red;
-}
-#page2{
-    background-color: orange;
-}
-#page3{
-    background-color: yellow;
-}
-#page4{
-    background-color:green;
-}
+
 
 
 /* NavBar Shit */
+
+#nav .active a{
+	color: black;
+  
+}
+
 
 .nav_parent{
     display: inline-flex;
@@ -88,9 +83,7 @@ body{
     color: black;
 }
 
-.active{
-    color: yellow;
-}
+
 
 .pg_wout_nav{
    margin: auto;
@@ -140,19 +133,7 @@ body{
     height: 120px;
 }
 
-CSS
 
-#nav .active a{
-	color: #c3095f!important;
-}
-#nav .active a:after{
-	content: '';
-	border-bottom: 2px solid #c3095f;
-	display: block;
-	width: 100%;
-	position: relative;
-	top: 8px;
-}
 
 
 
