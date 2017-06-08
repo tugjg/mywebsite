@@ -1,9 +1,8 @@
 
-
 body{
     scroll-behavior: smooth;
     background-color: white;
-   
+    
 }
 
 
@@ -12,9 +11,9 @@ body{
     display: flex;
     height: 1000px;
     background-color: white;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    align-content: center;
     
 }
 
@@ -42,6 +41,7 @@ body{
     margin: auto;
     width: 100%;
     align-items: strech;
+    
     
 }
 #nav {
@@ -92,7 +92,9 @@ body{
     color: yellow;
 }
 
-
+.pg_wout_nav{
+   margin: auto;
+}
 .pg_header{
     display: flex;
     font-family: 'Ek Mukta', sans-serif;
@@ -100,15 +102,12 @@ body{
     padding: 0;
     margin: 0;
     
-    
 }
 
-.contact_info{
-    display: flex;
-   
-    width: 40%;
-    justify-content: center;
 
+.contact_info{
+    width: 40%;
+    
 }
 
 .contact_info ul{
@@ -117,6 +116,7 @@ body{
     list-style: none;
     justify-content: space-around;
     padding: 0;
+  
     
     
 }

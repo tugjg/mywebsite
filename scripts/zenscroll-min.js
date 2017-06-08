@@ -78,7 +78,7 @@
             var h = window.innerHeight;
             var pageHeight = $('#page4').height();
             var navHeight = $('#nav').height();
-			edgeOffset = pageHeight/2-navHeight //px
+			edgeOffset = 0 //px
 		}
 
 		// Handling the life-cycle of the scroller
