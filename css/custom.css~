@@ -27,7 +27,6 @@ body{
     align-items: center;
     
     
-    
 }
 .pg_header{
     display: flex;
@@ -129,65 +128,8 @@ body{
 /*About Page*/
 
 .pg_intro{
-    font-family: Ek Mukta;
-    padding: 0;
-    margin: 0;
-    font-size: 125%;
-}
-
-.about_me_display{
-    width: 40%;
-    margin: auto;
-    display: flex;
-    font-family: Nunito;
     
 }
-
-.about_me_display ul{
-    display: inherit;
-    width: 100%;
-    list-style: none;
-    padding: 0;
-    justify-content: center;
-    align-items: flex-start;
-   
-}
-
-.about_me_display .display_group{
-    display: flex;
-    width: 100%;
-    margin: auto;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    
-   
-}
-
-.about_me_display .display_header{
-    display: inherit;
-    font-weight: 800;
-    font-size: 135%; 
-    margin-bottom: 5%;
-    
-
-}
-
- 
-
-
-.about_me_display .display_group ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.about_me_display .display_group ul li{
-    text-align: center;
-}
-
-
 
 /* Portfolio Page*/
 
