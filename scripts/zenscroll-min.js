@@ -357,8 +357,13 @@
 
 window.onload = function(){
 document.getElementById("aboutBtn").addEventListener("click", function(){
-        zenscroll.center(about);
+        zenscroll.scrollToCenterOf(about);
         console.log("aboutBtn clicked"); 
+        
+});
+    document.getElementById("portfolioBtn").addEventListener("click", function(){
+        zenscroll.scrollToCenterOf(portfolio);
+        console.log("portfolioBtn clicked"); 
         
 });
 };
