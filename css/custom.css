@@ -159,6 +159,10 @@ body{
 .about_me_display .display_group{
     display: flex;
     width: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     justify-content: space-around;
     flex-direction: column;
     align-items: center; 
@@ -195,8 +199,31 @@ body{
 /* Portfolio Page*/
 
 
-/*Resume Page */
 
+/*Resume Page */
+.resume_content{
+    height: 75%;
+    width: 100%;
+    
+}
+#inline_container { 
+    margin: 0; 
+    padding: 0;
+    height: 500px;
+}
+
+#inline_container {
+    
+}
+#toggle_menu {
+    height: 50%; width: 20px; display: inline-block; float: left; background: lime;
+}
+#main_container {
+    height: 100%; width: 65%; display: inline-block; float: left;
+}
+#toggle {
+    height: 100%; width: 20px; display: inline-block; float:left; background: green;
+}
 
 /*Contact Page (4)*/
 .contact_info{
