@@ -1,0 +1,113 @@
+/* Color Scheme 
+  #DCDCDD
+  #C5C3C6
+  #46494C
+  #4C5C68
+  #1985A1
+
+*/
+
+/*html {font-size: 1rem;}
+h1{font-size: 2rem;}
+h2{font-size: 1.9rem;}
+h3{font-size: 1.65rem;}
+h4{font-size: 1.4rem;}
+h5{font-size: 1.15rem;}
+h6{font-size: 1rem;}*/
+html {
+  font-size: 1rem ;
+}
+h1 {
+  font-size: 1.6rem ;
+}
+h2 {
+  font-size: 2rem ;
+}
+h3 {
+  font-size: 1.75rem ;
+}
+h4 {
+  font-size: 1.5rem ;
+}
+h5 {
+  font-size: 1.25rem ;
+}
+h6 {
+  font-size: 1.1rem ;
+}
+
+@media screen and (min-width: 320px) {
+  body {
+    font-size: calc(1rem + 0 * ((100vw - 320px) / 680)) ;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  h1 {
+    font-size: calc(1.6rem + 0.6 * ((100vw - 320px) / 680)) ;
+  }
+  h2 {
+    font-size: calc(1.9rem + 0.5 * ((100vw - 320px) / 680)) ;
+  }
+  h3 {
+    font-size: calc(1.65rem + 0.5 * ((100vw - 320px) / 680)) ;
+  }
+  h4 {
+    font-size: calc(1.4rem + 0.5 * ((100vw - 320px) / 680)) ;
+  }
+  h5 {
+    font-size: calc(1.15rem + 0.5 * ((100vw - 320px) / 680)) ;
+  }
+  h6 {
+    font-size: calc(1.1rem + 0 * ((100vw - 320px) / 680)) ;
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 1rem ;
+  }
+  h1 {
+    font-size: 2.2rem ;
+  }
+  h2 {
+    font-size: 2rem ;
+  }
+  h3 {
+    font-size: 1.75rem ;
+  }
+  h4 {
+    font-size: 1.5rem ;
+  }
+  h5 {
+    font-size: 1.25rem ;
+  }
+  h6 {
+    font-size: 1.1rem ;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
+  .all-content {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
+
+body {
+  width: 100vw;
+  background-color: #46494c;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
