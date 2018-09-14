@@ -26,6 +26,7 @@ class Landing extends Component {
             >
                 <div className="header-wrapper row">
                     <h1>Hey there! I'm Jacob.</h1>
+                    <h2>This website is a work in progress...</h2>
                 </div>
             </div>
         );
