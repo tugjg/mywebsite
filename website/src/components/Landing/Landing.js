@@ -1,31 +1,34 @@
-import React, {Component} from 'react';
-import './Landing.css';
+import React, { Component } from "react";
+import "./Landing.css";
+import $ from 'jquery';
 
-class Landing extends Component{
-    render(){
-        return(
-            <div className="landing-wrapper fullPage">
-                <div className="header-wrapper">
-                    <h1>Welcome!</h1>
-                </div>
+class Landing extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            navHeight: null
+        };
+    }
 
-                <div className="nav-link-pictures">
-                    <div className="nav-link-section">
-                        <img className="img-fluid nav-link-picture"/>
-                        <div className="nav-link-text"></div>
-                    </div>
-                    <div className="nav-link-section">
-                        <img className="img-fluid nav-link-picture"/>
-                        <div className="nav-link-text"></div>
-                    </div>
-                    <div className="nav-link-section">
-                        <img className="img-fluid nav-link-picture"/>
-                        <div className="nav-link-text"></div>
-                    </div>
+    componentDidMount() {
+        $(document).ready(function() {
+            const navHeight = $("#nav").height();
+            this.setState({ navHeight });
+        }.bind(this));
+    }
+    render() {
+        const { updatePageIndex } = this.props;
 
+        return (
+            <div
+                className="landing-page-container container"
+                style={{ height: `calc(100vh - ${this.state.navHeight}px` }}
+            >
+                <div className="header-wrapper row">
+                    <h1>Hey there! I'm Jacob.</h1>
                 </div>
             </div>
         );
     }
 }
-export default Landing
+export default Landing;

@@ -1,0 +1,11 @@
+.landing-page-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.landing-page-container h1 {
+	font-size: 3.75rem;
+	color: #DCDCDD;
+	text-align: center;
+}
