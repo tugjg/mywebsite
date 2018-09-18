@@ -78,10 +78,9 @@ class Navbar extends Component {
 						<div className="nav-item">Portfolio</div>
 						<div className="nav-item">Connect</div>
 					</div>
-					<div className="nav-menu-button-wrapper">
+					<div className="nav-menu-button-wrapper" onClick={this.toggleNav}>
 						<i
 							className="fa nav-button fa-angle-down"
-							onClick={this.toggleNav}
 						/>
 					</div>
 				</div>
