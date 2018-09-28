@@ -30,6 +30,7 @@ class App extends Component {
 				)}
 				{pageIndex == 1 && <About />}
 				{pageIndex == 2 && <Portfolio />}
+
 			</div>
 		);
 	}
